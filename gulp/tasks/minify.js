@@ -4,8 +4,8 @@ var rename = require('gulp-rename');
 var config = require('../config');
 
 gulp.task('minify', function () {
-    gulp.src(config.js.src)
+    gulp.src(config.minify.src)
         .pipe(jsmin())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest(config.js.dest));
+        .pipe(gulp.dest(config.minify.dest));
 });

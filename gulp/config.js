@@ -4,9 +4,13 @@ var path = require('path');
 var relativeSrcPath = path.relative('.', src);
 
 module.exports = {
-    js: {
+    minify: {
         src: dest + '/js/*.js',
         dest: dest + '/js/min',
+    },
+
+    tsd: {
+       json: src + '/tsd.json'
     },
 
     ts: {
