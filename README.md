@@ -2,11 +2,9 @@
 
 概要
 -----
-+ ビルドツール　： gulp
-+ altJS　　　　： TypeScript
-+ モジュール管理： Browserify
-
-[gulp × TypeScript × Browserifyな開発環境構築 - Qiita](http://qiita.com/massa142/items/c61289055c6467e10c99)
++ gulp
++ TypeScript
++ Browserify
 
 Usage
 -----
