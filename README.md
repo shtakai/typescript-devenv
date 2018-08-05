@@ -1,5 +1,7 @@
 # TypeScript開発環境
 
+[![GuardRails badge](https://badges.production.guardrails.io/shtakai/typescript-devenv.svg)](https://www.guardrails.io)
+
 概要
 -----
 + gulp
